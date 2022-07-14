@@ -1,0 +1,14 @@
+#! /usr/bin/python3
+
+from mininet.topo import Topo
+from mininet.net import Mininet
+from mininet.log import setLogLevel
+
+class FatTree4(Topo):
+
+    def __init__(self):
+
+        # initilaize topology
+        Topo.__init__(self)
+
+        
